@@ -1,7 +1,7 @@
 #!/bin/bash
 npm run build
-cp -r assets/ build/
-cd build/
+cp -r assets build
+cd build
 git init
 git remote add origin git@github.com:anishrverma/anishrverma.github.io.git
 git add .
