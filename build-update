@@ -1,0 +1,20 @@
+#!/bin/bash
+npm run build
+cp -r assets/ build/
+cd build/
+git init
+git remote add origin git@github.com:anishrverma/anishrverma.github.io.git
+git add .
+git commit -m 'V 14.04.2022.1'
+git push --force origin master
+
+
+# {
+#   title: "Quantum Monte Carlo Methods and Its Application to Fermi Liquid Theory",
+#   subtitle: "A. Verma",
+#   duration: "April 2021. M.Sc. Thesis",
+#   descriptions: [
+#     "In this work, the framework of Fermi Liquid Theory was applied to infinite neutron matter. In applying the framework to neutrons interacting through the strong force, care was given to the interactions involved, as the applicability of this framework was probed, given the non-perturbative nature of the strong force. As input to the calculations, Quantum Monte Carlo calculations were applied to retrieve the energies for neutrons interactive through 2 and 3 body nuclear interactions. In particular, Variational Monte Carlo was used to first optimize the wave- function, then Auxiliary Field Diffusion Monte Carlo was applied to provide accurate and precise ab-initio energies. By combining Fermi Liquid Theory and Quantum Monte Carlo methods, we demonstrated a systematization to the calculation of observable parameters, including effective mass, compressibility, spin susceptibility, and g-factor for neutron matter at the thermodynamic limit. This is particularly relevant for nuclear astrophysics, where neutron stars may be modeled as nuclear matter with a thermodynamic number of neutrons.",
+#   ],
+#   website_link: "https://anishrverma.github.io/assets/Anish-Verma_Thesis.pdf",
+# },
