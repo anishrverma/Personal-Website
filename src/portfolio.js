@@ -381,7 +381,7 @@ const experience = {
       title: "Industry Work",
       experiences: [
         {
-          title: "Quantum Computing Research Scientist + Program Lead",
+          title: "Quantum Computing Research Scientist + Product Owner",
           company: "1QBit",
           company_url: "https://www.1qbit.com/",
           logo_path: "1QBit-logo.png",
@@ -403,7 +403,7 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Project Manager (Secondment)",
+          title: "Business and Project Manager (Secondment)",
           company: "Quantum Algorithms Institute",
           company_url: "http://quantumalgorithms.ca/",
           logo_path: "QAI.jpeg",
@@ -509,9 +509,20 @@ const publications = {
   publications: [
     {
       title:
+        "A sentiment analysis of the Black Lives Matter movement using Twitter",
+      subtitle: "J. Peng, J.S. Fung, M. Murtaza, A. Rahman, P. Walia, D. Obande, A. Verma",
+      duration: "September 2022. STEM Fellowship Journal",
+      descriptions: [
+        "As more attention is brought to the issue of racial injustice, public sentiments and opinions on racial issues are increasingly important to track. At the same time, recent progress in machine learning and natural language processing methods, coupled with the growing amount of available data for training and analysis, allows researchers to extract sentiments from text data at large scales. We applied a natural language processing framework to study public sentiment surrounding the Black Lives Matter (BLM) movement. Specifically, we used a state-of-the-art BERT model fine-tuned for Twitter sentiment classification to predict the sentiment from approximately 1 million tweets from July 2013 to March 2021 related to BLM. The BERT model was trained on the Sentiment 140 dataset on which it obtained an AUC of 0.97 on the training data and 0.94 on testing data, outperforming other machine learning models. We found that retweet frequency and word count frequency were able to illustrate important themes in the BLM movement as well as indicate events of significant importance to the movement. Additionally, sentiment analysis revealed which of these themes and events were associated with positive public sentiment, such as social justice, and which were associated with negative sentiment, such as police brutality. Our analyses can also be applied to better understand other social and political movements to aid related research and activism.",
+      ],
+      website_link:
+        "https://anishrverma.github.io/assets/BLM.pdf",
+    },
+    {
+      title:
         "An Analysis of the COVID-19 Infodemic: The Impact of American Public Sources on Sentiment, Conversation, and Physician Behaviour Towards Hydroxychloroquine",
       subtitle: "E.W.L. Chan, G. Choi, K.S.K. Wong, S. Zeng, A. Verma",
-      duration: "June 2021. STEM Fellowship Journal",
+      duration: "August 2021. STEM Fellowship Journal",
       descriptions: [
         "The COVID-19 infodemic, described as an overabundance of both accurate and inaccurate information, poses a significant public health risk in spreading fear and provoking inappropriate prescription. The overwhelming and often contradictory information on as potential treatments for COVID-19 have contributed to this infodemic. Public sources including the US federal government, health organizations, and research publications have released conflicting statements on the efficacy of hydroxychloroquine. Previous research has not analyzed the influence of these sources on public attitudes and conversation towards the drug. To evaluate this impact, changes in the number and sentiment of tweets tagged with the hashtag or keyword “hydroxychloroquine” from March 12th to June 22nd, 2020 in relation to public sources were analyzed. We found that the US government had a statistically significant influence on public attitudes and behaviour (p < 0.001), unlike health organizations and research publications. Public sentiment on hydroxychloroquine has also been observed to become more negative over time, suggesting that public attitudes towards controversial topics can change. This study also found a positive correlation between public sentiment of hydroxychloroquine and other drugs (i.e. azithromycin and remdesivir) which indicates that public sources disseminating hydroxychloroquine-related information could also affect public attitudes towards related treatments. In a public health crisis, all statements and actions from public sources regarding contentious topics like hydroxychloroquine should be made with caution. To mitigate the disproportionate influence of public sources in an infodemic, we recommend three solutions: (a) education to empower individuals of all ages to develop critical thinking and digital literacy skills; (b) stronger action from social media platforms in labeling misinformation; (c) and cooperation between entities with strong influence (e.g. federal government) and other sources for public health measures. Together, these recommendations could resolve shortcomings existent with a single approach. Future research should be conducted with a custom trained model for sentiment analysis. It would also be valuable to conduct a similar version of the study on other social media platforms as well as for public health issues beyond COVID-19.",
       ],
