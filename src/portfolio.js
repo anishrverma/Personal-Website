@@ -516,7 +516,7 @@ const publications = {
         "As more attention is brought to the issue of racial injustice, public sentiments and opinions on racial issues are increasingly important to track. At the same time, recent progress in machine learning and natural language processing methods, coupled with the growing amount of available data for training and analysis, allows researchers to extract sentiments from text data at large scales. We applied a natural language processing framework to study public sentiment surrounding the Black Lives Matter (BLM) movement. Specifically, we used a state-of-the-art BERT model fine-tuned for Twitter sentiment classification to predict the sentiment from approximately 1 million tweets from July 2013 to March 2021 related to BLM. The BERT model was trained on the Sentiment 140 dataset on which it obtained an AUC of 0.97 on the training data and 0.94 on testing data, outperforming other machine learning models. We found that retweet frequency and word count frequency were able to illustrate important themes in the BLM movement as well as indicate events of significant importance to the movement. Additionally, sentiment analysis revealed which of these themes and events were associated with positive public sentiment, such as social justice, and which were associated with negative sentiment, such as police brutality. Our analyses can also be applied to better understand other social and political movements to aid related research and activism.",
       ],
       website_link:
-        "https://anishrverma.github.io/assets/BLM.pdf",
+        "https://anishrverma.github.io/assets/SF_BLM_Sentiment.pdf",
     },
     {
       title:
