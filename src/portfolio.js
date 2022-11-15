@@ -263,6 +263,18 @@ const degrees = {
       website_link: "https://www.pmi.org/",
     },
     {
+      title: "Scrum.org",
+      subtitle: "Professional Scrum Master I (PSM I)",
+      logo_path: "scrumorg-1.svg",
+      alt_name: "PSM",
+      duration: "November 2022",
+      descriptions: [
+        "💻 I have extensive experience in scrum teams, and am certified as a scrum master to demonstrate my ability to foster an effective and productive working environment and guide others to understand scrum values, principles, and practices.",
+        "🎓 Certified as of November 14 2022.",
+      ],
+      website_link: "https://www.pmi.org/",
+    },
+    {
       title: "Simon Fraser University",
       subtitle: "B.Sc. Honours in Chemical Physics",
       logo_path: "SFU.png",
