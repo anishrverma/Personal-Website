@@ -393,25 +393,36 @@ const experience = {
       title: "Industry Work",
       experiences: [
         {
-          title: "Quantum Computing Research Scientist + Product Owner",
-          company: "1QBit",
-          company_url: "https://www.1qbit.com/",
-          logo_path: "1QBit-logo.png",
-          duration: "January 2020 - PRESENT",
+          title: "Product Associate",
+          company: "Good Chemistry",
+          company_url: "https://goodchemistry.com/",
+          logo_path: "GoodChemistry.png",
+          duration: "December 2022 - PRESENT",
           location: "Vancouver, BC",
           description:
-            "I am working on applying quantum-inspired and quantum computing solutions to financial problems. In exploring the quantum landscape, I've learned about various quantum algorithms, hardware classes, and the major players today. I have modeled risk for futures, analyzed major price moves in equities, FX, and commodities, and worked on trading algorithms, all documented in open access papers. In addition to this, I currently lead the academic collaboration in finance program, in which we provide training in quantum computing to professors, graduate students, and researchers across the world to expose them to quantum technologies and find new applications. Through this program, we have provided training and supervision to researchers at University College London, University of British Columbia, Stevens Institute of Technology, University of Toronto Mississauga, and more.",
+            "I support the development, management, and marketing of the cloud computational chemistry platform Open Qemist and Tangelo. I work closely with engineering and research teams to ensure the platform is integrated with the latest relevant Artificial Intelligence (AI) and Quantum Computing technologies.",
           color: "#0879bf",
         },
         {
-          title: "Chief Operating Officer + Program Manager",
+          title: "Quantum Computing Research Scientist",
+          company: "1QBit",
+          company_url: "https://www.1qbit.com/",
+          logo_path: "1QBit-logo.png",
+          duration: "January 2020 - December 2022",
+          location: "Vancouver, BC",
+          description:
+            "I developed quantum-inspired and quantum computing solutions to financial problems. In exploring the quantum landscape, I've gained expertise in various quantum algorithms, hardware classes, and the competitive landscape. I have modeled risk for futures, analyzed major price moves in equities, FX, and commodities, and worked on trading algorithms, all documented in open access papers. In addition to this, I led the academic collaboration in finance program, in which training in quantum computing was provided to professors, graduate students, and researchers across the world to expose them to quantum technologies and find new applications. Through this program, we have provided training and supervision to researchers at University College London, University of British Columbia, Stevens Institute of Technology, University of Toronto Mississauga, and more.",
+          color: "#0879bf",
+        },
+        {
+          title: "Chief Operating Officer + Technical Program Manager",
           company: "STEM Fellowship",
           company_url: "https://www.stemfellowship.com",
           logo_path: "stem-logo.png",
-          duration: "February 2022 - PRESENT",
+          duration: "September 2021 - October 2022",
           location: "Toronto, ON",
           description:
-            "I direct the operations and direction of the organization, pushing forward the three major pillars of the organization: Data Science Education for Change, STEMpowerment, and Science Communication. In particular, I managed the Data Science pillar program, which covered internal Data Science operations/research, Cybersecurity, Blockchain, and Digital Citizenship. I have worked with the managing team, board of directors, and stakeholders to renew the mission and vision, having seen major growth of the number of programs, funding, and number of organization members. In this process, the organization has continued to break the previous KPIs of all its major programs, allowing us to expand beyond our previous reach. In addition to this, I have started new initiatives that are allowing the organization to adopt new technologies and train the youth of Canada in artificial intelligence, machine learning, blockchain, quantum computing, and more.",
+            "I directed the operations and direction of the organization, pushing forward the three major pillars of the organization: Data Science Education for Change, STEMpowerment, and Science Communication. In particular, I managed the Data Science pillar program, which covered internal Data Science operations/research, Cybersecurity, Blockchain, and Digital Citizenship. I have worked with the managing team, board of directors, and stakeholders to renew the mission and vision, having seen major growth of the number of programs, funding, and number of organization members. In this process, the organization has continued to break the previous KPIs of all its major programs, allowing us to expand beyond our previous reach. In addition to this, I have started new initiatives that are allowing the organization to adopt new technologies and train the youth of Canada in artificial intelligence, machine learning, blockchain, quantum computing, and more.",
           color: "#9b1578",
         },
         {
@@ -430,7 +441,7 @@ const experience = {
           company: "STEM Fellowship",
           company_url: "https://www.stemfellowship.com",
           logo_path: "stem-logo.png",
-          duration: "February 2020 - January 2022",
+          duration: "February 2020 - August 2021",
           location: "Toronto, ON",
           description:
             "I led the data science division, in which I directed the organization's data analytics to improve internal operations, and manage several teams in conducting research projects. I also led and oversaw the organization of the National Big Data Challenge program, in which we empowered students to use data science in an interdisciplinary setting. This took the form of hackathons, extracurricular learning programs, learning modules, and workshops with topics ranging from statistics to machine learning. In addition, I consulted in the planning, organization, and data analytics with other organizations like Resolution Blue Labs.",
