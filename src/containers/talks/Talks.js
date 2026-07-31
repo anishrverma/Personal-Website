@@ -12,6 +12,7 @@ export default function Talks() {
         {talkSection.talks.map((talk) => {
           return (
             <TalkCard
+              key={talk.event_url || talk.slides_url || talk.title}
               talkDetails={{
                 title: talk.title,
                 subtitle: talk.subtitle,
