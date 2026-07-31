@@ -10,11 +10,16 @@ class ExperienceCard extends Component {
         className="experience-card"
         style={{ border: `1px solid ${experience["color"]}` }}
       >
-        <div className="experience-card-logo-div">
+        <div
+          className="experience-card-logo-div"
+          style={{
+            backgroundColor: experience["logo_background"] || "#fff",
+          }}
+        >
           <img
             className="experience-card-logo"
             src={require(`../../assests/images/${experience["logo_path"]}`)}
-            alt=""
+            alt={experience["alt_name"] || `${experience["company"]} logo`}
           />
         </div>
         <div className="experience-card-body-div">
@@ -54,12 +59,23 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
-          <p
-            className="experience-card-description"
-            style={{ color: theme.text }}
-          >
-            {experience["description"]}
-          </p>
+          {experience["highlights"] ? (
+            <ul
+              className="experience-card-highlights"
+              style={{ color: theme.text }}
+            >
+              {experience["highlights"].map((highlight) => (
+                <li key={`${experience["title"]}-${highlight}`}>{highlight}</li>
+              ))}
+            </ul>
+          ) : (
+            <p
+              className="experience-card-description"
+              style={{ color: theme.text }}
+            >
+              {experience["description"]}
+            </p>
+          )}
         </div>
       </div>
     );

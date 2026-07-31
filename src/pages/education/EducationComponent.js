@@ -31,8 +31,19 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Education, Certifications, and Awards
+                  Formal Education and Professional Development
                 </h3>
+                <p
+                  className="education-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  An interdisciplinary foundation spanning physics, scientific
+                  research, pharmacology, product delivery, project leadership,
+                  and specialized industry training. These programs and
+                  credentials reflect a career built around learning complex
+                  domains and translating them into practical products,
+                  research, and organizational impact.
+                </p>
               </div>
             </div>
           </Fade>
