@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
@@ -49,7 +48,13 @@ class Projects extends Component {
         </div>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+            return (
+              <GithubRepoCard
+                key={repo.url || repo.id || repo.name}
+                repo={repo}
+                theme={theme}
+              />
+            );
           })}
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />

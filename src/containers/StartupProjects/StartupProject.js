@@ -18,6 +18,7 @@ export default function StartupProject() {
             {bigProjects.projects.map((project) => {
               return (
                 <div
+                  key={project.link}
                   className="saaya-health-div"
                   onClick={() => openProjectInNewWindow(project.link)}
                 >

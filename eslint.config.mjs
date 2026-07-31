@@ -48,6 +48,7 @@ export default [
           ignoreRestSiblings: true,
         },
       ],
+      "no-console": ["error", { allow: ["warn", "error"] }],
       "jsx-a11y/alt-text": "warn",
       "jsx-a11y/anchor-has-content": "warn",
       "jsx-a11y/anchor-is-valid": [
@@ -83,6 +84,7 @@ export default [
       ],
       "react/jsx-no-comment-textnodes": "warn",
       "react/jsx-no-duplicate-props": "warn",
+      "react/jsx-key": "error",
       "react/jsx-no-target-blank": "warn",
       "react/jsx-no-undef": "error",
       "react/jsx-uses-react": "warn",
@@ -97,6 +99,7 @@ export default [
       "react/no-danger-with-children": "warn",
       "react/no-direct-mutation-state": "warn",
       "react/no-is-mounted": "warn",
+      "react/no-unknown-property": "error",
       "react/no-typos": "error",
       "react/require-render-return": "error",
       "react/style-prop-object": "warn",
