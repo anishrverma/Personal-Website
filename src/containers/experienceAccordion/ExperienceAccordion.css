@@ -2,8 +2,101 @@
   margin: 50px;
 }
 
+.experience-accordion {
+  width: 100%;
+}
+
 .accord-panel {
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
   font-family: "Google Sans Regular";
+}
+
+.accord-panel.is-expanded {
+  border-bottom-color: #cbcbcb;
+}
+
+.accord-heading {
+  margin: 0;
+  font: inherit;
+}
+
+.accord-trigger {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.accord-trigger:hover {
+  color: #000;
+}
+
+.accord-trigger:focus {
+  outline: none;
+}
+
+.accord-trigger:focus-visible {
+  outline: 3px solid #276ef1;
+  outline-offset: -3px;
+}
+
+.accord-indicator {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  margin-left: 16px;
+}
+
+.accord-indicator::before,
+.accord-indicator::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.accord-indicator::after {
+  transform: rotate(90deg);
+  transition: transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.accord-trigger[aria-expanded="true"] .accord-indicator::after {
+  transform: rotate(0deg);
+}
+
+.accord-content {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 24px 24px 40px;
+  overflow: hidden;
+  background: #f6f6f6;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accord-indicator::after {
+    transition: none;
+  }
 }
 
 @media (max-width: 768px) {
