@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import { resolveImage } from "../../utils/imageResolver";
 
 class DegreeCard extends Component {
   render() {
@@ -12,7 +13,7 @@ class DegreeCard extends Component {
           <div className="card-img">
             <img
               className="degree-card-logo"
-              src={require(`../../assests/images/${degree.logo_path}`)}
+              src={resolveImage(degree.logo_path)}
               alt={degree.alt_name}
             />
           </div>

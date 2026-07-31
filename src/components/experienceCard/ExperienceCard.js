@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
+import { resolveImage } from "../../utils/imageResolver";
 
 class ExperienceCard extends Component {
   render() {
@@ -18,7 +19,7 @@ class ExperienceCard extends Component {
         >
           <img
             className="experience-card-logo"
-            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            src={resolveImage(experience["logo_path"])}
             alt={experience["alt_name"] || `${experience["company"]} logo`}
           />
         </div>
