@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run lint && vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b master -d build -r https://github.com/anishrverma/anishrverma.github.io.git",
     "dev": "vite",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "preview": "vite preview",
