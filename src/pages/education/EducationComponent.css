@@ -44,6 +44,13 @@
   text-align: center;
 }
 
+.education-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 20px;
+  font-family: "Google Sans Medium";
+}
+
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;
@@ -62,6 +69,13 @@
 
   .heading-sub-text {
     font-size: 20px;
+  }
+
+  .education-header-detail-text {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
   }
 
   .heading-div {

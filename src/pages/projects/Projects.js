@@ -34,6 +34,12 @@ class Projects extends Component {
                 >
                   {projectsHeader.title}
                 </h1>
+                <h3
+                  className="projects-heading-sub-text"
+                  style={{ color: theme.text }}
+                >
+                  {projectsHeader["subtitle"]}
+                </h3>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}

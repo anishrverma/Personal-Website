@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
@@ -25,7 +24,7 @@ class SkillSection extends Component {
       <div>
         {skills.data.map((skill) => {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={skill.title}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
@@ -42,14 +41,12 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
                 <Fade right duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
+                          key={skillSentence}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
